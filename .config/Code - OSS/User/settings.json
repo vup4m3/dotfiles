@@ -1,0 +1,15 @@
+{
+    "window.zoomLevel": 1,
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Consolas', 'Fira Code'",
+    "editor.fontSize": 16,
+    "C_Cpp.updateChannel": "Insiders",
+    "code-runner.runInTerminal": true,
+    "terminal.external.linuxExec": "st",
+    "editor.largeFileOptimizations": false,
+    "git.enableSmartCommit": true
+}
