@@ -74,28 +74,20 @@ button:hover {
 }
 
 #clock,
-#battery,
 #cpu,
 #memory,
-#disk,
-#temperature,
-#backlight,
-#network,
 #pulseaudio,
 #wireplumber,
-#austom-media,
 #tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#mpd {
-    padding: 0 10px;
-    color: #ffffff;
-}
 
 #window,
 #workspaces {
-    margin: 0 4px;
+    background-color: #414868;
+    margin: 5px 5px 5px 5px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 16px;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .modules-left {
@@ -124,17 +116,6 @@ button:hover {
     border-radius: 16px;
     background-color: #73daca;
     color: #000000;
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
-}
-
-#battery {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-#battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: #26A65B;
 }
 
 @keyframes blink {
@@ -169,21 +150,6 @@ label:focus {
     color: #ff9e64;
 }
 
-#disk {
-    background-color: #964B00;
-}
-
-#backlight {
-    background-color: #90b1b1;
-}
-
-#network {
-    background-color: #2980b9;
-}
-
-#network.disconnected {
-    background-color: #f53c3c;
-}
 
 #wireplumber {
     border-radius: 16px;
@@ -210,18 +176,8 @@ label:focus {
     background-color: #ffa000;
 }
 
-#temperature {
-    background-color: #f0932b;
-}
-
-#temperature.critical {
-    background-color: #eb4d4b;
-}
-
 #tray {
-    background-color: #24283b;
     border-radius: 16px;
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
 }
 
 #tray > .passive {
