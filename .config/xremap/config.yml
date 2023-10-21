@@ -1,0 +1,8 @@
+# Emacs-style word-forward and word-back
+keymap:
+  - name: generic for all apps
+    remap:
+      Alt-h: left
+      Alt-j: down
+      Alt-k: up
+      Alt-l: right
