@@ -2,12 +2,12 @@
     "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 30, // Waybar height (to be removed for auto height)
-    "width": 1920, // Waybar width
+    // "width": 1920, // Waybar width
     "spacing": 4 , // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [ "hyprland/workspaces" ],
-    "modules-center": [ ],
-    "modules-right": ["tray", "wireplumber", "cpu", "memory", "clock" ],
+    "modules-center": [ "clock" ],
+    "modules-right": ["tray", "wireplumber", "cpu", "memory"],
     // Modules configuration
     "hyprland/workspaces": {
         "format": "{name}",
@@ -33,8 +33,8 @@
         "spacing": 10
     },
     "clock": {
-        "format": "{:%A, %B %d, %Y (%R)}  ",
-        "format-alt": "{:%H:%M}  ",
+        "format": "  {:%A, %B %d, %Y %R}",
+        "format-alt": "  {:%H:%M}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
             "mode"          : "year",

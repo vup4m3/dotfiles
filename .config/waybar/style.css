@@ -114,8 +114,7 @@ button:hover {
 
 #clock {
     border-radius: 16px;
-    background-color: #73daca;
-    color: #000000;
+    color: #bb9af7;
 }
 
 @keyframes blink {
@@ -147,7 +146,7 @@ label:focus {
     /*
     background-color: #9b59b6;
     */
-    color: #ff9e64;
+    color: #7dcfff;
 }
 
 
