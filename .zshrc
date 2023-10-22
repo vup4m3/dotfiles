@@ -109,3 +109,6 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
     LF_ICONS="$(tr '\n' ':' <~/.config/LF_ICONS)" \
         && export LF_ICONS
 }
+
+export manga=/mnt/service/mango/library
+
