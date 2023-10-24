@@ -1,22 +1,23 @@
 [Added Associations]
+application/pdf=brave-browser.desktop;libreoffice-draw.desktop;com.google.Chrome.desktop;firefox.desktop;gimp.desktop;pqiv.desktop;
 application/zip=org.kde.dolphin.desktop;pqiv.desktop;
 image/jpeg=nsxiv.desktop;
 image/png=nsxiv.desktop;brave-browser.desktop;
 video/x-matroska=mpv.desktop;
 
 [Default Applications]
+application/pdf=brave-browser.desktop;
 application/zip=org.kde.dolphin.desktop;
 image/jpeg=nsxiv.desktop;
 image/png=nsxiv.desktop;
 text/html=brave-browser.desktop
-video/x-matroska=mpv.desktop;
 video/mp4=mpv.desktop;
+video/x-matroska=mpv.desktop;
 x-scheme-handler/http=brave-browser.desktop
 x-scheme-handler/https=brave-browser.desktop
-x-scheme-handler/webcal=brave-browser.desktop
 x-scheme-handler/mailto=opera.desktop
+x-scheme-handler/webcal=brave-browser.desktop
 
 [Removed Associations]
 image/jpeg=com.opera.Opera.desktop;brave-browser.desktop;gimp.desktop;pqiv.desktop;
 video/x-matroska=pqiv.desktop;
-
