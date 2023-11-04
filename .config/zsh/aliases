@@ -28,3 +28,4 @@ alias vfs='nvim /mnt/anakin/document/famous_saying.txt '
 
 alias tl='trash-list'
 alias t='trash'
+alias rm='trash'
