@@ -1,0 +1,16 @@
+#!/bin/sh
+
+cd ~
+
+export _JAVA_AWT_WM_NONREPARENTING=1
+export XCURSOR_SIZE=24
+export GLFW_IM_MODULE=fcitx
+export GTK_IM_MODULE=fcitx
+export INPUT_METHOD=fcitx
+export XMODIFIERS=@im=fcitx
+export IMSETTINGS_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export LIBVA_DRIVER_NAME=radeonsi
+export VDPAU_DRIVER=radeonsi
+
+exec Hyprland
