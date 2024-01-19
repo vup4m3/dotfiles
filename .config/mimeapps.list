@@ -1,12 +1,12 @@
 [Added Associations]
-application/pdf=brave-browser.desktop;libreoffice-draw.desktop;com.google.Chrome.desktop;firefox.desktop;gimp.desktop;pqiv.desktop;
+application/pdf=okularApplication_pdf.desktop;brave-browser.desktop;libreoffice-draw.desktop;com.google.Chrome.desktop;firefox.desktop;gimp.desktop;pqiv.desktop;chromium.desktop;
 application/zip=org.kde.dolphin.desktop;pqiv.desktop;
 image/jpeg=nsxiv.desktop;
 image/png=nsxiv.desktop;brave-browser.desktop;
 video/x-matroska=mpv.desktop;
 
 [Default Applications]
-application/pdf=brave-browser.desktop;
+application/pdf=okularApplication_pdf.desktop;
 application/zip=org.kde.dolphin.desktop;
 image/jpeg=nsxiv.desktop;
 image/png=nsxiv.desktop;
