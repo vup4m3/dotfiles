@@ -112,3 +112,4 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
 export manga=/mnt/service/mango/library
 
+eval "$(zoxide init --cmd cd zsh)"
