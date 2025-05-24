@@ -66,13 +66,21 @@ cmd trash ${{
   done
 }}
 
+cmd rename_clean ${{
+    for f in $fs; do
+        mv "$f" "$(echo "$f" | sed 's|^\[[^]]*\] *||')"
+    done
+}}
+
 cmd restore_trash ${{
   trash-restore
 }}
 
 map D trash
 
-map r restore_trash
+map r
+map rt restore_trash
+map rc rename_clean
 
 cmd extract ${{
     set -f

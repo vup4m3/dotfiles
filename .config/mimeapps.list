@@ -3,6 +3,7 @@ application/pdf=okularApplication_pdf.desktop;brave-browser.desktop;libreoffice-
 application/zip=org.kde.dolphin.desktop;pqiv.desktop;
 image/jpeg=nsxiv.desktop;
 image/png=nsxiv.desktop;brave-browser.desktop;
+video/mp4=/home/anakin/.local/share/applications/vlc-2.desktop;
 video/x-matroska=mpv.desktop;
 
 [Default Applications]
@@ -11,14 +12,14 @@ application/zip=org.kde.dolphin.desktop;
 image/jpeg=nsxiv.desktop;
 image/png=nsxiv.desktop;
 text/html=google-chrome.desktop
-video/mp4=mpv.desktop;
+video/mp4=/home/anakin/.local/share/applications/vlc-2.desktop;
 video/x-matroska=mpv.desktop;
+x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/http=google-chrome.desktop
 x-scheme-handler/https=google-chrome.desktop
 x-scheme-handler/mailto=chromium.desktop
-x-scheme-handler/webcal=brave-browser.desktop
-x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/webcal=brave-browser.desktop
 
 [Removed Associations]
 image/jpeg=com.opera.Opera.desktop;brave-browser.desktop;gimp.desktop;pqiv.desktop;
