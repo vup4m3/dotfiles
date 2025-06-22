@@ -1,8 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: FontAwesome;
-    font-size: 16px;
+    font-family: JetBrainsMono Nerd Font Mono;
+    font-size: 18px;
 }
 
 window#waybar {
@@ -23,7 +23,7 @@ window#waybar.solo {
 */
 
 window#waybar.termite {
-    background-color: #3F3F3F;
+    background-color: transparent;
 }
 
 window#waybar.chromium {
@@ -47,7 +47,7 @@ button:hover {
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #f7768e;
+    color: #FFFFFF;
 }
 
 #workspaces button:hover {
@@ -55,17 +55,16 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: #f7768e;
-    color: #000000;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: #ffffff;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #000000;
 }
 
 #mode {
-    background-color: #64727D;
-    border-bottom: 3px solid #ffffff;
+    background-color: transparent;
 }
 
 #clock,
@@ -77,7 +76,7 @@ button:hover {
 
 #window,
 #workspaces {
-    background-color: #414868;
+    background-color: transparent;
     margin: 5px 5px 5px 5px;
     padding: 0px 5px 0px 5px;
     border-radius: 16px;
@@ -109,7 +108,7 @@ button:hover {
 
 #clock {
     border-radius: 16px;
-    color: #bb9af7;
+    color: #ffffff;
 }
 
 @keyframes blink {
@@ -134,25 +133,25 @@ label:focus {
 }
 
 #cpu {
-    color: #bb9af7;
+    color: #ffffff;
 }
 
 #memory {
     /*
     background-color: #9b59b6;
     */
-    color: #7dcfff;
+    color: #ffffff;
 }
 
 
 #wireplumber {
     border-radius: 16px;
-    color: #9ece6a;
+    color: #ffffff;
 }
 
 #wireplumber.muted {
     border-radius: 16px;
-    color: #f7768e;
+    color: #ffffff;
 }
 
 #custom-media {
@@ -172,6 +171,7 @@ label:focus {
 
 #tray {
     border-radius: 16px;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
 #tray > .passive {

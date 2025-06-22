@@ -1,25 +1,27 @@
 * {
-	border-radius: 16px;
+    border-radius: 16px;
 }
 
 window {
     font-size: 16;
     font-family: "Roboto Mono Mdedium";
-    background-color: rgba(65, 72, 104, 0.9);
-    color: #bb9af7;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
 }
 
 #entry:selected {
-	background-color: #bb9af7;
-	background: linear-gradient(90deg, #bb9af7, #c0caf5);
-	color: #414868;
+    background-color: rgba(192, 192, 192, 0.9);
+}
+
+#text:selected {
+    color: #000000;
 }
 
 #input {
     font-size: 16;
     font-family: "Roboto Mono Mdedium";
-    background-color: rgba(65, 72, 104, 0.9);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000000;
     padding: 0.25em;
 }
 
